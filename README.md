@@ -4,6 +4,10 @@ A deep-learning project that classifies the emotion label associated with a shor
 
 > **Important limitation:** This is an educational/research demo using acted speech from TESS. Voice emotion is subjective and context-dependent. The model output is not a clinical or psychological assessment, and its scores are not calibrated confidence values.
 
+## Try the application
+
+The Streamlit interface is included in `app/streamlit_app.py`. To run it locally, follow the installation steps below. A public hosted demo is not configured yet.
+
 ## Results from the saved model run
 
 The metrics below are read from `models/evaluation_metrics.json`, uploaded with the trained model artifact.
