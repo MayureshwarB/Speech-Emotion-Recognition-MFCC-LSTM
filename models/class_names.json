@@ -1,0 +1,27 @@
+{
+  "class_names": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "ps",
+    "sad"
+  ],
+  "display_names": {
+    "angry": "Angry",
+    "disgust": "Disgust",
+    "fear": "Fear",
+    "happy": "Happy",
+    "neutral": "Neutral",
+    "ps": "Pleasant Surprise",
+    "sad": "Sad"
+  },
+  "feature_extraction": "librosa MFCC n_mfcc=40, mean over time, duration=3 seconds, offset=0.5 seconds",
+  "input_shape": [
+    40,
+    1
+  ],
+  "dataset": "TESS (Toronto Emotional Speech Set), 2800 WAV files",
+  "seed": 42
+}
